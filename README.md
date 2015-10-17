@@ -1,9 +1,9 @@
 # devfest2015
-Material Design App Engine Template for DevFest 2015 Season
+Material Design App Engine Template for DevFest 2015 Season. App Engine [serves static](https://cloud.google.com/appengine/docs/java/config/appconfig?hl=en#Java_appengine_web_xml_Static_files_and_resource_files) files from dedicated servers and caches.
 
 This is a fork of [devfest2015](https://github.com/ajmikzer/devfest2015), restructured as a [Google App Engine](https://cloud.google.com/appengine/) template. Includes some inspirations from project [zeppelin](https://github.com/gdg-x/zeppelin).
 
-Demo can be found here: http://rtv-devfest.appspot.com
+Demo can be found here: http://rtv-devfest.appspot.com.
 
 ## Prerequisites
 * [Apache Maven](https://maven.apache.org/download.cgi).
@@ -24,8 +24,10 @@ mvn appengine:devserver
 cd src/main/webapp/
 python -m SimpleHTTPServer 8080
 ```
-* To deploy it to App Engine, update the `<app.id>rtv-devfest</app.id>` property in pom.xml with your project id
+* To deploy it to App Engine, update the `<app.id>rtv-devfest</app.id>` property in pom.xml with your project id. 
+* Update the `<app.version>2</app.version>` property in pom.xml if needed.
 * Deploy the app:
 ```
 mvn appengine:update
 ```
+* If you have changed the version number, remember to activate it on the cloud console.
