@@ -10,7 +10,7 @@ Demo can be found here: http://rtv-devfest.appspot.com
 * Java 7.
 
 ## Quick start
-* Create a new [cloud console project](https://console.developers.google.com/project).
+* Create a new [cloud console project](https://console.developers.google.com/project). Note the project id.
 * Development:
 ```
 git clone https://github.com/omerio/devfest2015.git
@@ -24,7 +24,7 @@ mvn appengine:devserver
 cd src/main/webapp/
 python -m SimpleHTTPServer 8080
 ```
-* To deploy it to App Engine, update the `<app.id>rtv-devfest</app.id>` property in pom.xml
+* To deploy it to App Engine, update the `<app.id>rtv-devfest</app.id>` property in pom.xml with your project id
 * Deploy the app:
 ```
 mvn appengine:update
