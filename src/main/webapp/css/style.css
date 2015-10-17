@@ -451,7 +451,7 @@ nav ul li.active > a {
 }
 
 .masonry-item {
-  margin-top: 6px; 
+  margin-top: 6px;
   width: 33%;
   height: auto;
   float: left;
@@ -683,7 +683,7 @@ nav ul li.active > a {
   margin-top: 30px;
 }
 
-.progress-solid.meter { 
+.progress-solid.meter {
   height: 25px;
   border-radius: 3px;
   position: relative;
@@ -818,8 +818,8 @@ nav ul li.active > a {
   -moz-border-radius: 50%;
   border-radius: 50%;
   content: '';
-  -webkit-box-sizing: content-box; 
-  -moz-box-sizing: content-box; 
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
   box-sizing: content-box;
 }
 
@@ -1474,4 +1474,44 @@ blockquote > p {
 
 .scroll-down i {
   color: #3f51b5;
+}
+/* twitter section https://github.com/gdg-x/zeppelin */
+.content-wrapper {
+    position: relative;
+    z-index: 11;
+    height: 100%;
+}
+
+#twitter-feed {
+    background: url(../upload/twitter-feed.jpg) no-repeat center center fixed;
+    background-size: 100% auto;
+}
+
+h1.agenda {
+  margin-top: 0px;
+}
+
+.icon {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    cursor: pointer;
+    fill: #8b8b8b;
+    -webkit-transition: all .5s;
+    transition: all .5s;
+}
+
+.twitter-feed .icon {
+    width: 64px;
+    height: 64px;
+    fill: #fff;
+}
+
+.twitter-feed h3 {
+    margin-bottom: 50px;
+    font-size: 65px;
+}
+
+.twitter-feed a {
+   color: #03a9f4;
 }
