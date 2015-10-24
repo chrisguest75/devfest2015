@@ -5,7 +5,7 @@ canvas#spiders {
 }
 h1.main-title {
   position: relative;
-  margin-top: -350px;
+  margin-top: -400px;
   font-size: 5vw !important;
   color: #fff;
   font-weight: 600;
@@ -628,7 +628,7 @@ nav ul li.active > a {
   color: #fff;
 }
 
-.socials a:hover .fa.fa-facebook {
+.socials a:hover .fa.fa-github {
   background-color: #3b5998;
 }
 
@@ -648,7 +648,7 @@ nav ul li.active > a {
   background-color: #0e76a8;
 }
 
-.socials a:hover i.fa.fa-pinterest-p {
+.socials a:hover i.fa.fa-link {
   background-color: #c8232c;
 }
 
