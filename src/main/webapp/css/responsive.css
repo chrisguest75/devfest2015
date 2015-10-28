@@ -47,6 +47,10 @@ h1.main-title {
   font-size: 11vw !important;
 }
 
+.title-holder {
+  margin-top: -400px;
+}
+
 
 	h1 { font-size: 32px; }
 	h2 { font-size: 28px; }
@@ -105,7 +109,7 @@ h1.main-title {
 
 
 @media (max-width: 528px) {
-	
+
 	.testimonials-box img {
 	  float: none;
 	}
@@ -140,7 +144,7 @@ h1.main-title {
 
 
 @media (max-width: 480px) {
-	
+
 	.entry-comments .comment-avatar {
 	  width: 50px;
 	  height: 50px;
