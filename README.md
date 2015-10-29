@@ -24,7 +24,9 @@ mvn appengine:devserver
 cd src/main/webapp/
 python -m SimpleHTTPServer 8080
 ```
-* To deploy it to App Engine, update the `<app.id>rtv-devfest</app.id>` property in pom.xml with your project id. 
+If you are using windows and you have Node.js and npm installed then you can use [http-server](https://www.npmjs.com/package/http-server), it's a simple zero-configuration command-line HTTP server.
+
+* To deploy it to App Engine, update the `<app.id>rtv-devfest</app.id>` property in pom.xml with your project id.
 * Update the `<app.version>2</app.version>` property in pom.xml if needed.
 * Deploy the app:
 ```
