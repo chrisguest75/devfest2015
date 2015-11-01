@@ -563,6 +563,7 @@ nav ul li.active > a {
   -o-transition: all 0.2s linear;
   -ms-transition: all 0.2s linear;
   transition: all 0.2s linear;
+  width: 165px;
 }
 
 .team-member {
@@ -575,7 +576,7 @@ nav ul li.active > a {
   position: absolute;
   top: 50%;
   left: 0;
-  padding: 30px;
+  /*padding: 5px;*/
   overflow: hidden;
   width: 100%;
   z-index: 2;
