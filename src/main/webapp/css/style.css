@@ -1516,3 +1516,8 @@ h1.agenda {
 .twitter-feed a {
    color: #03a9f4;
 }
+
+.statistics-block {
+    font-size: 3em;
+    font-weight: 200;
+}
