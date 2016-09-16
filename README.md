@@ -3,7 +3,7 @@ Material Design App Engine Template for DevFest 2016 Season. App Engine [serves 
 
 This is a fork of [devfest2015](https://github.com/ajmikzer/devfest2015), restructured as a [Google App Engine](https://cloud.google.com/appengine/) template. Includes some inspirations from project [zeppelin](https://github.com/gdg-x/zeppelin).
 
-Demo can be found here: http://rtv-devfest.appspot.com.
+Demo can be found here: https://reading-gdg.appspot.com/
 
 ## Prerequisites
 * [Apache Maven](https://maven.apache.org/download.cgi).
